@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeReader", "BarcodeReader\BarcodeReader.csproj", "{2F86BFD2-DEEB-49AC-BF4A-2BE77DF93F75}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zbar", "zbar\zbar.vcxproj", "{CCDC507F-CCAA-447C-AC48-4D7E704775D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libzbar-cil", "libzbar-cil\libzbar-cil.csproj", "{58D63AA2-59A3-4E02-B833-819727FA8CEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F86BFD2-DEEB-49AC-BF4A-2BE77DF93F75}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2F86BFD2-DEEB-49AC-BF4A-2BE77DF93F75}.Debug|x64.Build.0 = Debug|Any CPU
+		{2F86BFD2-DEEB-49AC-BF4A-2BE77DF93F75}.Release|x64.ActiveCfg = Release|Any CPU
+		{2F86BFD2-DEEB-49AC-BF4A-2BE77DF93F75}.Release|x64.Build.0 = Release|Any CPU
+		{CCDC507F-CCAA-447C-AC48-4D7E704775D5}.Debug|x64.ActiveCfg = Debug|x64
+		{CCDC507F-CCAA-447C-AC48-4D7E704775D5}.Debug|x64.Build.0 = Debug|x64
+		{CCDC507F-CCAA-447C-AC48-4D7E704775D5}.Release|x64.ActiveCfg = Release|x64
+		{CCDC507F-CCAA-447C-AC48-4D7E704775D5}.Release|x64.Build.0 = Release|x64
+		{58D63AA2-59A3-4E02-B833-819727FA8CEE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{58D63AA2-59A3-4E02-B833-819727FA8CEE}.Debug|x64.Build.0 = Debug|Any CPU
+		{58D63AA2-59A3-4E02-B833-819727FA8CEE}.Release|x64.ActiveCfg = Release|Any CPU
+		{58D63AA2-59A3-4E02-B833-819727FA8CEE}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7262D40-D911-48AD-B3DD-3F38345D0D04}
+	EndGlobalSection
+EndGlobal
